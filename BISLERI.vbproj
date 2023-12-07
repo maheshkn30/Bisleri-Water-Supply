@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BFE154A-1B9F-4255-B791-BE6CDB5749B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BISLERI.My.MyApplication</StartupObject>
+    <RootNamespace>BISLERI</RootNamespace>
+    <AssemblyName>BISLERI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BISLERI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BISLERI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Stocks.Designer.vb">
+      <DependentUpon>Add Stocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Stocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empdetails.Designer.vb">
+      <DependentUpon>Empdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOYEEREPORT.Designer.vb">
+      <DependentUpon>EMPLOYEEREPORT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEEREPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGINFORM.Designer.vb">
+      <DependentUpon>LOGINFORM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGINFORM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage stocks.Designer.vb">
+      <DependentUpon>Manage stocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage stocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prodcut type.Designer.vb">
+      <DependentUpon>Prodcut type.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prodcut type.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product details.Designer.vb">
+      <DependentUpon>Product details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Product details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sale reports.Designer.vb">
+      <DependentUpon>sale reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sale reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale.Designer.vb">
+      <DependentUpon>Sale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIGNUP.Designer.vb">
+      <DependentUpon>SIGNUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SIGNUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STOCKREPORT.Designer.VB">
+      <DependentUpon>STOCKREPORT.VB</DependentUpon>
+    </Compile>
+    <Compile Include="STOCKREPORT.VB">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Add Stocks.resx">
+      <DependentUpon>Add Stocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empdetails.resx">
+      <DependentUpon>Empdetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEEREPORT.resx">
+      <DependentUpon>EMPLOYEEREPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGINFORM.resx">
+      <DependentUpon>LOGINFORM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage stocks.resx">
+      <DependentUpon>Manage stocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prodcut type.resx">
+      <DependentUpon>Prodcut type.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product details.resx">
+      <DependentUpon>Product details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sale reports.resx">
+      <DependentUpon>sale reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale.resx">
+      <DependentUpon>Sale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIGNUP.resx">
+      <DependentUpon>SIGNUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STOCKREPORT.resx">
+      <DependentUpon>STOCKREPORT.VB</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
